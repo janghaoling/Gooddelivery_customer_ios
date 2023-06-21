@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddNewAddressCell" rowHeight="61" id="KGk-i7-Jjw" customClass="AddNewAddressCell" customModule="orderAround" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="401" height="60.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KAG-oQ-gTZ">
+                        <rect key="frame" x="0.0" y="0.0" width="401" height="60.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3G-3y-KTB">
+                                <rect key="frame" x="10" y="12" width="381" height="36.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Zfx-9v-LNl"/>
+                                </constraints>
+                                <state key="normal" title="ADD NEW ADDRESS">
+                                    <color key="titleColor" name="PRIMARYCOLOR"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="PRIMARYCOLOR"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderLineWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Zfx-9v-LNl"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="h3G-3y-KTB" firstAttribute="leading" secondItem="KAG-oQ-gTZ" secondAttribute="leading" constant="10" id="9Gf-Xk-eq4"/>
+                            <constraint firstItem="h3G-3y-KTB" firstAttribute="top" secondItem="KAG-oQ-gTZ" secondAttribute="top" constant="12" id="APp-6W-VNR"/>
+                            <constraint firstAttribute="trailing" secondItem="h3G-3y-KTB" secondAttribute="trailing" constant="10" id="CoN-DL-bzV"/>
+                            <constraint firstAttribute="bottom" secondItem="h3G-3y-KTB" secondAttribute="bottom" constant="12" id="LkN-Qg-ZKo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="KAG-oQ-gTZ" secondAttribute="trailing" id="B3W-zY-LHA"/>
+                    <constraint firstAttribute="bottom" secondItem="KAG-oQ-gTZ" secondAttribute="bottom" id="IiH-Kd-BL7"/>
+                    <constraint firstItem="KAG-oQ-gTZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="S1D-sN-toE"/>
+                    <constraint firstItem="KAG-oQ-gTZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cKM-x9-krB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addNewAddress" destination="h3G-3y-KTB" id="VH7-W8-6BY"/>
+            </connections>
+            <point key="canvasLocation" x="202.40000000000001" y="147.97601199400302"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="PRIMARYCOLOR">
+            <color red="1" green="0.42699998617172241" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

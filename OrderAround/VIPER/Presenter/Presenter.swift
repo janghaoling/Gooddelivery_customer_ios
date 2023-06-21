@@ -1,0 +1,208 @@
+//
+//  Presenter.swift
+//  User
+//
+//  Created by imac on 12/19/17.
+//  Copyright © 2017 Appoets. All rights reserved.
+//
+
+import Foundation
+
+
+class Presenter  {
+    
+    var interactor: PostInteractorInputProtocol?
+    var controller: PostViewProtocol?
+}
+
+//MARK:- Implementation PostPresenterInputProtocol
+
+extension Presenter : PostPresenterInputProtocol {
+    
+    func put(api: Base, url: String, data: Data?) {
+        interactor?.send(api: api, url: url, data: data, type: .PUT)
+    }
+    
+    func delete(api: Base, url: String, data: Data?) {
+        interactor?.send(api: api, url: url, data: data, type: .DELETE)
+    }
+    
+    func patch(api: Base, url: String, data: Data?) {
+        interactor?.send(api: api, url: url, data: data,type: .PATCH)
+    }
+    
+    func post(api: Base, data: Data?) {
+        interactor?.send(api: api, data: data, type: .POST)
+    }
+    
+    func get(api: Base, data : Data?) {
+        interactor?.send(api: api, data: data, type: .GET)
+    }
+    
+    func get(api : Base, url : String){
+        interactor?.send(api: api, url: url, data: nil, type: .GET)
+    }
+    
+    func post(api: Base, imageData: [String : Data]?, data : Data?) {
+        interactor?.send(api: api, imageData: imageData, data : data)
+    }
+    
+    func post(api: Base, url: String, data: Data?) {
+        interactor?.send(api: api, url: url, data: data,type: .POST)
+    }
+    
+}
+
+
+//MARK:- Implementation PostPresenterOutputProtocol
+
+extension Presenter : PostPresenterOutputProtocol {
+  
+    
+    
+    
+
+    func sendUserCartDetail(api: Base, data: Data, msg: Data) {
+        controller?.getCardDetails(api: api, data: PresenterProcessor.shared.userCartDetail(data: data), msg:  PresenterProcessor.shared.message(data: data))
+    }
+    
+    func sendSearchList(api: Base, data: Data) {
+        controller?.searchProduct(api: api, data: PresenterProcessor.shared.searchProduct(data: data))
+    }
+    
+    
+    func sendUserAddress(api: Base, data: Data, msg: Data) {
+        
+        controller?.getAddress(api: api, data: PresenterProcessor.shared.userAddressDetails(data: data), msg: PresenterProcessor.shared.message(data: data))
+    }
+    
+    func sendAddCart(api: Base, data: Data) {
+        controller?.addCart(api: api, data: PresenterProcessor.shared.addCartItem(data: data))
+    }
+    
+    
+    func sendDoFavorite(api: Base, data: Data) {
+        if api == .doFavorite {
+            controller?.doFavorite(api: api, data: PresenterProcessor.shared.message(data: data))
+        }else{
+            controller?.getFavoriteList(api: api, data: PresenterProcessor.shared.favoriteList(data: data))
+        }
+    }
+    
+    
+    func sendCategoriesListReq(api: Base, data: Data) {
+        controller?.menuList(api: api, data: PresenterProcessor.shared.resturantList(data: data))
+    }
+    
+    func sendShopListReq(api: Base, data: Data) {
+        controller?.shopList(api: api, data: PresenterProcessor.shared.shopList(data: data))
+    }
+    
+    func signUpAuth(api: Base, response: Data) {
+        controller?.signUp(api:  api, response: PresenterProcessor.shared.SignUp(data: response))
+    }
+    
+    
+    func sendOtp(api: Base, data: Data) {
+        controller?.getOtp(api:  api, otp: PresenterProcessor.shared.getOTP(data: data))
+    }
+    
+    func onError(api: Base, error: CustomError) {
+       self.controller?.onError(api: api, message: error.localizedDescription, statusCode: error.statusCode)
+    }
+    
+    func sendOath(api: Base, data: Data) {
+        
+        controller?.getOath(api: api, data: PresenterProcessor.shared.loginRequest(data: data))
+    }
+    
+    func forgetPassword(api: Base, data: Data) {
+        
+        controller?.getOTPForForgetPassword(api: api, data: PresenterProcessor.shared.forgetPassword(data: data))
+    }
+    
+    func sendUserProfile(api: Base, data: Data) {
+        controller?.getUserProfile(api: api, data: PresenterProcessor.shared.userProfileData(data: data))
+    }
+    
+    func sendCuisines(api: Base, data: Data, msg: Data) {
+        controller?.getCuisinesList(api: api, data: PresenterProcessor.shared.cuisines(data: data)) //, msg: PresenterProcessor.shared.message(data: data)
+        }
+    func sendGetPromocode(api: Base, data: Data) {
+        controller?.getPromoCode(api: api, data: PresenterProcessor.shared.getPromoCode(data: data))
+    }
+    
+    func sendApplyPromoCode(api: Base, data: Data) {
+        controller?.getApplyPromocode(api: api, data: PresenterProcessor.shared.applyPromocode(data: data))
+    }
+    
+    func sendChangePassword(api: Base, data: Data) {
+        controller?.getChangePassword(api: api, data: PresenterProcessor.shared.changePassword(data: data))
+    }
+    
+    func sendOnGoingOrder(api: Base, data: Data) {
+        controller?.getOnGoingOrder(api: api, data: PresenterProcessor.shared.onGoingOrders(data: data))
+    }
+    
+    func sendReorder(api: Base, data: Data) {
+        controller?.getReorder(api: api, data: PresenterProcessor.shared.reOrder(data: data))
+    }
+    
+    func sendOrders(api: Base, data: Data) {
+        controller?.getOrders(api: api, data: PresenterProcessor.shared.getOrders(data: data))
+    }
+    
+    func sendDisputeList(api: Base, data: Data) {
+        controller?.getDisputeList(api: api, data: PresenterProcessor.shared.disputeHelp(data: data))
+    }
+    
+    func sendCreateDispute(api: Base, data: Data) {
+        controller?.getOrders(api: api, data: PresenterProcessor.shared.getOrders(data: data))
+    }
+    
+    func sendRatings(api: Base, data: Data) {
+        controller?.getRatings(api: api, data: PresenterProcessor.shared.message(data: data) ?? Message())
+    }
+    
+    func sendWalletHistory(api: Base, data: Data) {
+        controller?.getWalletHistory(api: api, data: PresenterProcessor.shared.getWalletHistory(data: data))
+    }
+    
+    func sendAddAmount(api: Base, data: Data) {
+        controller?.getAddAmount(api: api, data: PresenterProcessor.shared.getAddAmount(data: data))
+    }
+    
+    func sendSettingsData(api: Base, data: Data) {
+        controller?.getSettingsData(api: api, data: PresenterProcessor.shared.getSettingsData(data: data))
+    }
+    
+//    func sendOnlineStatus(api: Base, data: Data) {
+//        controller?.getOnlineStatus(api: api, data: PresenterProcessor.shared.OnlineStatus(data: data))
+//    }
+//    
+//    func sendLocationupadate(api: Base, date: Data) {
+//        controller?.getLoactionUpadate(api: api, data: PresenterProcessor.shared.updateLocation(data: date))
+//    }
+//    
+//    func sendResetPassword(api: Base, data: Data) {
+//        controller?.getResetpassword(api: api, data: PresenterProcessor.shared.resetPassword(data: data))
+//    }
+//    
+//    
+//    func sendlogin(api: Base, data: Data) {
+//        controller?.getLogin(api: api, data: PresenterProcessor.shared.login(data: data))
+//    }
+//    
+//    
+//    func SendAuth(api: Base, data: Data) {
+//        controller?.getAuth(api: api, data: PresenterProcessor.shared.signUpAuth(data: data))
+//    }
+//
+//    func onError(api: Base, error: CustomError) {
+//        
+//        controller?.onError(api: api, message: error.localizedDescription , statusCode: error.statusCode)
+//    }
+    
+}
+
+

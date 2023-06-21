@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+        <array key="Nunito-SemiBold.ttf">
+            <string>Nunito-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GoBackCell" rowHeight="60" id="KGk-i7-Jjw" customClass="GoBackCell" customModule="orderAround" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="331" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="331" height="64.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OOj-aM-lHu">
+                        <rect key="frame" x="0.0" y="0.0" width="331" height="64.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="Nps-qH-hsy">
+                                <rect key="frame" x="8" y="17.5" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="eJp-WG-DDh"/>
+                                    <constraint firstAttribute="height" constant="30" id="fQb-aJ-OKS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XqT-20-Mvo">
+                                <rect key="frame" x="58" y="8" width="263" height="21"/>
+                                <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wo5-d9-DRg">
+                                <rect key="frame" x="58" y="37" width="263" height="19"/>
+                                <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Nk-Bb-pRr">
+                                <rect key="frame" x="0.0" y="64" width="331" height="0.5"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="eJJ-x2-Dfx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XqT-20-Mvo" firstAttribute="top" secondItem="OOj-aM-lHu" secondAttribute="top" constant="8" id="Btf-xR-PGg"/>
+                            <constraint firstItem="wo5-d9-DRg" firstAttribute="leading" secondItem="XqT-20-Mvo" secondAttribute="leading" id="Ira-4l-hmh"/>
+                            <constraint firstItem="Nps-qH-hsy" firstAttribute="centerY" secondItem="OOj-aM-lHu" secondAttribute="centerY" id="KvD-sJ-HLj"/>
+                            <constraint firstAttribute="trailing" secondItem="2Nk-Bb-pRr" secondAttribute="trailing" id="Tbi-5F-h4b"/>
+                            <constraint firstAttribute="bottom" secondItem="2Nk-Bb-pRr" secondAttribute="bottom" id="WnA-Do-TxC"/>
+                            <constraint firstItem="2Nk-Bb-pRr" firstAttribute="leading" secondItem="OOj-aM-lHu" secondAttribute="leading" id="aLV-3g-cQG"/>
+                            <constraint firstItem="wo5-d9-DRg" firstAttribute="trailing" secondItem="XqT-20-Mvo" secondAttribute="trailing" id="fT4-qE-ToD"/>
+                            <constraint firstAttribute="trailing" secondItem="XqT-20-Mvo" secondAttribute="trailing" constant="10" id="h2Z-BJ-xyc"/>
+                            <constraint firstItem="XqT-20-Mvo" firstAttribute="leading" secondItem="Nps-qH-hsy" secondAttribute="trailing" constant="20" id="qYc-kP-hQH"/>
+                            <constraint firstItem="wo5-d9-DRg" firstAttribute="top" secondItem="XqT-20-Mvo" secondAttribute="bottom" constant="8" id="sPm-3h-kJv"/>
+                            <constraint firstItem="2Nk-Bb-pRr" firstAttribute="top" secondItem="wo5-d9-DRg" secondAttribute="bottom" constant="8" id="veC-fR-O7h"/>
+                            <constraint firstItem="Nps-qH-hsy" firstAttribute="leading" secondItem="OOj-aM-lHu" secondAttribute="leading" constant="8" id="xQ0-CG-8xz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="OOj-aM-lHu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0si-rj-x4H"/>
+                    <constraint firstAttribute="bottom" secondItem="OOj-aM-lHu" secondAttribute="bottom" id="M49-sT-Zqc"/>
+                    <constraint firstItem="OOj-aM-lHu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kox-sq-5P9"/>
+                    <constraint firstAttribute="trailing" secondItem="OOj-aM-lHu" secondAttribute="trailing" id="krE-g1-PKa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="subTitleLabel" destination="wo5-d9-DRg" id="FDz-ql-d6N"/>
+                <outlet property="titleLabel" destination="XqT-20-Mvo" id="hlZ-t1-Sr8"/>
+            </connections>
+            <point key="canvasLocation" x="146.40000000000001" y="143.47826086956522"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="back" width="24" height="24"/>
+    </resources>
+</document>

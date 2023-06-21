@@ -1,0 +1,97 @@
+//
+//  ApiList.swift
+//  Centros_Camprios
+//
+//  Created by imac on 12/18/17.
+//  Copyright © 2017 Appoets. All rights reserved.
+//
+
+import Foundation
+
+//Http Method Types
+
+enum HttpType : String{
+    
+    case GET = "GET"
+    case POST = "POST"
+    case PATCH = "PATCH"
+    case PUT = "PUT"
+    case DELETE = "DELETE"
+    
+}
+
+// Status Code
+
+enum StatusCode : Int {
+    
+    case notreachable = 0
+    case success = 200
+    case multipleResponse = 300
+    case unAuthorized = 401
+    case notFound = 404
+    case ServerError = 500
+    
+}
+
+
+
+enum Base : String {
+  
+    case getOTP = "/api/user/otp"
+    case verifyOTP = "/api/user/verify/otp"
+    case signUp = "/api/user/userregister"
+    case login = "/oauth/token"
+    case forgetPassword = "/api/user/forgot/password"
+    case resetPassword = "/api/user/reset/password"
+    case socialLogin = "/api/user/social/login"
+    case userProfile =  "/api/user/profile"
+    case shopList = "/api/user/shops"
+    case categoriesList = "/api/user/categories"
+    case doFavorite = "/api/user/favorite"
+    case getFavourite = "//api/user/favorite"
+    case addCart = "/api/user/cart"
+    case searchProduct = "/api/user/search"
+    case userAddress = "/api/user/address"
+    case cardDetail = "/api/user/card"
+    case order = "/api/user/order"
+    case cuisines = "/api/user/cuisines"
+    case getPromocode = "/api/user/wallet/promocode"
+    case applyPromocode = "/api/user/apply/promocode"
+    case changePassword = "/api/user/profile/password"
+    case onGoingOrders = "/api/user/ongoing/order"
+    case pastOrders = "//api/user/order"
+    case reOrder = "/api/user/reorder"
+    case disputeHelp = "/api/user/disputehelp"
+    case clearCart = "/api/user/clear/cart"
+    case createDispute = "/api/user/dispute"
+    case ratings = "/api/user/rating"
+    case walletHistory = "/api/user/wallet"
+    case addAmount = "/api/user/add/money"
+    case versionCheck = "/api/transporter/checkversion"
+    case settings = "/api/user/initsetup"
+    
+    
+    
+    init(fromRawValue: String){
+        self = Base(rawValue: fromRawValue) ?? .signUp
+    }
+    
+    static func valueFor(Key : String?)->Base{
+        
+        guard let key = Key else {
+            return Base.signUp
+        }
+        
+//        for val in iterateEnum(Base.self) where val.rawValue == key {
+//            return val
+//        }
+        
+        if let base = Base(rawValue: key) {
+            return base
+        }
+        
+        return Base.signUp
+        
+    }
+    
+}

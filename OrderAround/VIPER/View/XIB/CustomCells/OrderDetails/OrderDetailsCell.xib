@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-SemiBold.ttf">
+            <string>Nunito-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="78" id="KGk-i7-Jjw" customClass="OrderDetailsCell" customModule="orderAround" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="67.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yon-m8-HKm">
+                        <rect key="frame" x="0.0" y="0.0" width="403" height="67.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="veg" translatesAutoresizingMaskIntoConstraints="NO" id="ywL-nc-zHJ">
+                                <rect key="frame" x="10" y="12" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="PXh-rJ-W86"/>
+                                    <constraint firstAttribute="width" constant="15" id="YiE-1v-xWr"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="mAx-u8-uLR">
+                                <rect key="frame" x="34" y="4" width="301" height="59"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhy-0t-RvJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="301" height="27.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27.5" id="IUG-82-moL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feQ-Rv-xt3">
+                                        <rect key="frame" x="0.0" y="31.5" width="301" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="mhy-0t-RvJ" firstAttribute="top" secondItem="mAx-u8-uLR" secondAttribute="top" id="VeP-hO-86N"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="234" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDK-6k-Jyr">
+                                <rect key="frame" x="335" y="8.5" width="60" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="750" constant="60" id="WDZ-7f-zFI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZBa-Dc-8fV">
+                                <rect key="frame" x="0.0" y="67" width="403" height="0.5"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="vIx-7l-kZb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ywL-nc-zHJ" firstAttribute="top" secondItem="yon-m8-HKm" secondAttribute="top" constant="12" id="IoS-xk-Kcp"/>
+                            <constraint firstItem="mAx-u8-uLR" firstAttribute="leading" secondItem="ywL-nc-zHJ" secondAttribute="trailing" constant="9" id="TOl-if-VQB"/>
+                            <constraint firstItem="gDK-6k-Jyr" firstAttribute="leading" secondItem="mAx-u8-uLR" secondAttribute="trailing" id="Xpe-oK-77x"/>
+                            <constraint firstItem="mAx-u8-uLR" firstAttribute="top" secondItem="yon-m8-HKm" secondAttribute="top" constant="4" id="hhk-K4-SoI"/>
+                            <constraint firstAttribute="bottom" secondItem="ZBa-Dc-8fV" secondAttribute="bottom" id="jYc-m1-Rlh"/>
+                            <constraint firstAttribute="trailing" secondItem="ZBa-Dc-8fV" secondAttribute="trailing" id="kfq-v8-bEM"/>
+                            <constraint firstItem="ywL-nc-zHJ" firstAttribute="leading" secondItem="yon-m8-HKm" secondAttribute="leading" constant="10" id="mEy-nf-w7Q"/>
+                            <constraint firstItem="gDK-6k-Jyr" firstAttribute="top" secondItem="yon-m8-HKm" secondAttribute="top" constant="8.5" id="orC-5j-kR6"/>
+                            <constraint firstItem="ZBa-Dc-8fV" firstAttribute="top" secondItem="mAx-u8-uLR" secondAttribute="bottom" constant="4" id="rph-jt-dXu"/>
+                            <constraint firstItem="ZBa-Dc-8fV" firstAttribute="leading" secondItem="yon-m8-HKm" secondAttribute="leading" id="tVR-jl-fm5"/>
+                            <constraint firstAttribute="trailing" secondItem="gDK-6k-Jyr" secondAttribute="trailing" constant="8" id="yLn-R0-cHG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yon-m8-HKm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="RQ2-Ii-QgM"/>
+                    <constraint firstAttribute="bottom" secondItem="yon-m8-HKm" secondAttribute="bottom" id="g5s-wY-KuS"/>
+                    <constraint firstItem="yon-m8-HKm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="i1l-Zo-WZi"/>
+                    <constraint firstAttribute="trailing" secondItem="yon-m8-HKm" secondAttribute="trailing" id="xLs-Hk-J0J"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageFoodType" destination="ywL-nc-zHJ" id="EVB-sr-V5G"/>
+                <outlet property="labelAddOns" destination="feQ-Rv-xt3" id="2qj-nk-R5T"/>
+                <outlet property="labelPrice" destination="gDK-6k-Jyr" id="hAO-lz-7pE"/>
+                <outlet property="labelProduct" destination="mhy-0t-RvJ" id="ou3-o3-DUf"/>
+            </connections>
+            <point key="canvasLocation" x="119.2" y="59.370314842578715"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="veg" width="36" height="36"/>
+    </resources>
+</document>

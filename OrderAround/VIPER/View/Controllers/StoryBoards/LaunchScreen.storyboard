@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MQG-v6-nDb">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="xQA-Ma-9Lz">
+            <objects>
+                <viewController id="MQG-v6-nDb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mdC-IL-fGJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kQa-hk-beN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-up-logo" translatesAutoresizingMaskIntoConstraints="NO" id="0TQ-SD-fg2">
+                                        <rect key="frame" x="77.666666666666686" y="294.66666666666669" width="220" height="223.00000000000006"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="220" id="MM6-Fh-B1h"/>
+                                            <constraint firstAttribute="height" constant="223" id="S2G-zn-GQ4"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="0TQ-SD-fg2" firstAttribute="centerY" secondItem="kQa-hk-beN" secondAttribute="centerY" id="ZfA-s8-B9S"/>
+                                    <constraint firstItem="0TQ-SD-fg2" firstAttribute="centerX" secondItem="kQa-hk-beN" secondAttribute="centerX" id="x8P-QX-NjW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kQa-hk-beN" firstAttribute="trailing" secondItem="7nC-HY-vTV" secondAttribute="trailing" id="Tyc-ea-LWk"/>
+                            <constraint firstItem="kQa-hk-beN" firstAttribute="leading" secondItem="7nC-HY-vTV" secondAttribute="leading" id="YfI-9Q-h4x"/>
+                            <constraint firstItem="kQa-hk-beN" firstAttribute="bottom" secondItem="mdC-IL-fGJ" secondAttribute="bottom" id="unH-Er-3XK"/>
+                            <constraint firstItem="kQa-hk-beN" firstAttribute="top" secondItem="mdC-IL-fGJ" secondAttribute="top" id="znY-iE-oq0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7nC-HY-vTV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qSf-8D-t1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82.400000000000006" y="108.62068965517241"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sign-up-logo" width="512" height="509"/>
+    </resources>
+</document>

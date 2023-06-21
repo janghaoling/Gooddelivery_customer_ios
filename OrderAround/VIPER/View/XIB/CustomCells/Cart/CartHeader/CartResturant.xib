@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+        <array key="Nunito-SemiBold.ttf">
+            <string>Nunito-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CartResturant" rowHeight="50" id="KGk-i7-Jjw" customClass="CartResturant" customModule="orderAround" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="430" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="productimage" translatesAutoresizingMaskIntoConstraints="NO" id="ek2-nL-0aD">
+                        <rect key="frame" x="15" y="4" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="c8N-nv-yQm"/>
+                            <constraint firstAttribute="height" constant="40" id="qZ3-Gf-RLo"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KFC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9H0-2f-AZ7">
+                        <rect key="frame" x="63" y="8" width="352" height="18"/>
+                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hot and spicy!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hu-QD-hs1">
+                        <rect key="frame" x="63" y="24" width="352" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="PqC-lS-sNc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4Hu-QD-hs1" firstAttribute="trailing" secondItem="9H0-2f-AZ7" secondAttribute="trailing" id="5GD-8h-wKe"/>
+                    <constraint firstItem="4Hu-QD-hs1" firstAttribute="top" secondItem="9H0-2f-AZ7" secondAttribute="bottom" constant="-2" id="DJM-HJ-oeC"/>
+                    <constraint firstAttribute="trailing" secondItem="9H0-2f-AZ7" secondAttribute="trailing" constant="15" id="X9W-k4-6NO"/>
+                    <constraint firstItem="9H0-2f-AZ7" firstAttribute="leading" secondItem="ek2-nL-0aD" secondAttribute="trailing" constant="8" id="aB6-VR-Z0L"/>
+                    <constraint firstItem="ek2-nL-0aD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="gbs-Km-y6h"/>
+                    <constraint firstItem="4Hu-QD-hs1" firstAttribute="leading" secondItem="9H0-2f-AZ7" secondAttribute="leading" id="hr1-Xj-gfv"/>
+                    <constraint firstItem="9H0-2f-AZ7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="q1b-Jb-JtJ"/>
+                    <constraint firstItem="ek2-nL-0aD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="sp7-LM-4nh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="shopDescriptionLbl" destination="4Hu-QD-hs1" id="lMh-4N-YNH"/>
+                <outlet property="shopImage" destination="ek2-nL-0aD" id="5gK-8t-c8k"/>
+                <outlet property="shopNameLbl" destination="9H0-2f-AZ7" id="3Kq-0M-87O"/>
+            </connections>
+            <point key="canvasLocation" x="140.80000000000001" y="51.27436281859071"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="productimage" width="200" height="115"/>
+    </resources>
+</document>

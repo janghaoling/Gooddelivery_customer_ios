@@ -1,0 +1,247 @@
+/* 
+  Localizable.strings
+  OrderAroundUser
+
+  Created by Thiru on 13/03/19.
+  Copyright © 2019 css. All rights reserved.
+*/
+
+
+"localize.letsImpress" = "دعونا إقناعك مع الأطباق لدينا";
+"localize.totalResturant" = "مطعم";
+"localize.relevent" = "ملاءمة";
+"localize.currentlyAvailble" = "متاح حاليا";
+"localize.currentlyUnAvailable" = "غير متاح حاليا";
+"localize.countryCode" = "EC";
+"localize.countryPickerTitle" = "اختر البلد";
+"localize.Done" = "فعله";
+"localize.Back" = "الى الخلف";
+"localize.reorder" = "إعادة ترتيب";
+"localize.History" = "التاريخ";
+"localize.registration" = "نجاح التسجيل";
+"localize.noDevice" = "لا يوجد جهاز";
+"localize.loginSuccess" = "النجاح في تسجيل الدخول";
+"localize.manual" = "كتيب";
+"localize.OK" = "حسنا";
+"localize.delete" = "حذف";
+"localize.Cancel" = "إلغاء";
+"localize.NA" = "نا";
+"localize.MobileNumber" = "رقم الهاتف المحمول";
+"localize.next" = "التالى";
+"localize.selectSource" = "اختر مصدر";
+"localize.camera" = "الة تصوير";
+"localize.photoLibrary" = "مكتبة الصور";
+"localize.logout" = "الخروج";
+"localize.cannotMakeCallAtThisMoment" = "لا يمكن إجراء مكالمة في هذه اللحظة";
+"localize.couldnotOpenEmailAttheMoment" = "لا يمكن فتح البريد الإلكتروني في الوقت الحالي.";
+"localize.areYouSureWantToLogout" = "هل تريد تسجيل الخروج؟";
+"localize.OTP" = "مكتب المدعي العام";
+"localize.continueText" = "استمر";
+"localize.enterMobileNumber" = "أدخل رقم الجوال";
+"localize.enterOtp" = "أدخل مكتب المدعي العام";
+"localize.verficationCode" = "شيفرة التأكيد";
+"localize.verficationSentText" = "الرجاء إدخال رمز التحقق الذي تم إرساله إلى";
+"localize.enterCorrectOTP" = "مكتب المدعي العام أدخل صالح";
+"localize.paymentOption" = "خيار الدفع";
+"localize.wallet" = "محفظة نقود";
+"localize.payOnDelivery" = "الدفع عند الاستلام";
+"localize.card" = "بطاقة";
+"localize.skip" = "تخطى";
+"localize.signIn" = "تسجيل الدخول";
+"localize.signUp" = "سجل";
+"localize.fresh" = "طازج";
+"localize.discoverNewDish" = "اكتشاف أطباق جديدة كل يوم";
+"localize.holdFavRest" = "وعقد المطعم المفضل";
+"localize.search" = "بحث";
+"localize.viewMenus" = "عرض القوائم والصور والاستعراضات ل";
+"localize.restaurantsAroundYou" = "المطاعم من حولك";
+"localize.bookMark" = "المرجعية";
+"localize.addPlcaeWantToVisit" = "أضف المكان الذي تريد زيارته في";
+"localize.futureBookMark" = "المستقبل إلى المرجعية الخاصة بك";
+"localize.mobileNumber" = "رقم الهاتف المحمول";
+"localize.password" = "كلمه السر";
+"localize.dontHaveAccount" = "ليس لديك حساب؟";
+"localize.forgetPassword" = "نسيت كلمة المرور؟";
+"localize.copnnectWithSocial" = "تواصل مع الاجتماعية";
+"localize.newPassword" = "كلمة السر الجديدة";
+"localize.confirmPassword" = "تأكيد كلمة المرور";
+"localize.change" = "يتغيرون";
+"localize.alreadyHaveAccount" = "هل لديك حساب؟";
+"localize.signInHere" = "تسجيل الدخول هنا";
+"localize.name" = "اسم";
+"localize.emailAddress" = "عنوان بريد الكتروني";
+"localize.register" = "تسجيل";
+"localize.didNotGetOTP" = "العام أدخل صالح لم تحصل";
+"localize.resentOTP" = "إعادة إرسال مكتب المدعي العام";
+"localize.favorites" = "المفضلة";
+"localize.locating" = "تحديد موقع";
+"localize.filter" = "منقي";
+"localize.searchForResturant" = "البحث عن مطعم ، والأطباق";
+"localize.resturant" = "مطعم";
+"localize.dishes" = "أطباق";
+"localize.goodFoodIsAlwaysGettingCooked" = "الطعام الجيد يتم الحصول عليه دائمًا";
+"localize.pleaseOrderDish" = "يرجى طلب الأطباق";
+"localize.addAddress" = "اضف عنوان";
+"localize.changeAddress" = "يتغيرون";
+"localize.selectAddress" = "اختر العنوان";
+"localize.continues" = "استمر";
+"localize.pleaseLoginAndOrder" = "يرجى تسجيل الدخول وطلب الأطباق لدينا";
+"localize.account:" = "الحساب";
+"localize.loginPrSignUp" = "تسجيل الدخول أو الاشتراك لتقديم طلبك";
+"localize.login" = "تسجيل الدخول";
+"localize.addAmount" = "إضافة مبلغ";
+"localize.addNewCard" = "إضافة بطاقة جديدة";
+"localize.cardNumber" = "رقم البطاقة";
+"localize.vaildThiru" = "(صالحة من خلال ( مم / السنة";
+"localize.cvv" = "CVV";
+"localize.add" = "أضف";
+"localize.editAccount" = "تحرير الحساب";
+"localize.userName" = "اسم المستخدم";
+"localize.update" = "تحديث";
+"localize.changePassword" = "غير كلمة السر";
+"localize.oldPassword" = "كلمة المرور القديمة";
+"localize.confirm" = "تؤكد";
+"localize.promoCode" = "رمز ترويجي";
+"localize.payment" = "دفع";
+"localize.edit" = "تصحيح";
+"localize.delete" = "حذف";
+"localize.manageAccount" = "إدارة الحساب";
+"localize.myOrder" = "طلبي";
+"localize.promoDetails"  = "تفاصيل الترويج";
+"localize.myAccount" = "حسابي";
+"localize.menuDetails" = "العنوان ، المفضلة ، المدفوعات ، آخرون ...";
+"localize.writeSomething" = "أكتب شيئا.";
+"localize.manageAdress" = "إدارة العنوان";
+"localize.savedAddress" = "العنوان المحفوظ";
+"localize.addNewAddress" = "إضافة عنوان جديد";
+"localize.currentOrders" = "الأوامر الحالية";
+"localize.order" = "طلب";
+"localize.filters" = "مرشحات";
+"localize.reset" = "إعادة تعيين";
+"localize.applyFilter" = "تطبيق مرشح";
+"localize.setDeliveryLocation" = "حفظ موقع التسليم";
+"localize.address" = "عنوان";
+"localize.saveAs" = "حفظ مثل";
+"localize.home" = "الصفحة الرئيسية";
+"localize.work" = "عمل";
+"localize.others" = "الآخرين";
+"localize.saveAndProceed" = "حفظ وإجراء";
+"localize.houseNo" = "منزل / شقة رقم.";
+"localize.landMark" = "معلم معروف";
+"localize.itemDelayForResturant" = "العناصر المؤجلة من المطعم";
+"localize.itemDelayForPacking" = "البنود تأخر التعبئة والتغليف";
+"localize.itemUpdationLate" = "تحديث العناصر في وقت متأخر";
+"localize.other" = "الآخرين";
+"localize.someTest" = "بعض الاختبار";
+"localize.sorryForCancel" = "آسف للإلغاء";
+"localize.productNotAvailable" = "المنتج غير متوفر";
+"localize.dispute" = "خلاف";
+"localize.chatUs" = "دردشة الولايات المتحدة";
+"localize.helpDescription" = "هل تواجه أي مشاكل يمكننا مساعدتك؟ يرجى التواصل معنا وسنكون سعداء لمساعدتك";
+"localize.enter" = "أدخل";
+"localize.details" = "تفاصيل";
+"localize.help" = "مساعدة";
+
+"localize.orderPlaced" = "تم الطلب";
+"localize.orderConfirmed" = "تم تاكيد الطلب";
+"localize.orderProcessed" = "تم انهاء الطلب";
+"localize.orderPickedUp" = "ترتيب التقطت";
+"localize.orderDelivered" = "أجل تسليم";
+
+"localize.orderPlacedDescription" = "لقد تلقينا طلبك.";
+"localize.orderConfirmedDescription" = "تم تأكيد طلبك.";
+"localize.orderProcessedDescription" = "يتم طهي طعامك.";
+"localize.orderPickedUpDescription" = "طعامك في الطريق.";
+"localize.orderDeliveryDescription" = "أتمنى لك وجبة شهية.";
+
+"localize.terrible" = "رهيب";
+"localize.bad" = "سيئة";
+"localize.good" = "حسن";
+"localize.okay" = "حسنا";
+"localize.superb" = "رائع";
+"localize.feedback" = "ردود الفعل";
+"localize.howWasTheDelivery" = "كيف كان التسليم؟";
+"localize.giveSomeFeedbackinWords"  = "إعطاء بعض الملاحظات في الكلمات";
+"localize.submit" = "خضع";
+"localize.flat" =  "مسطحة ";
+"localize.offOrder" = "٪ قبالة على جميع الطلبات";
+"localize.Rating" = " تقييم";
+"localize.noResturant" = "لا يوجد مطاعم!";
+"localize.seeIfFilter" = "معرفة ما إذا كان أي مرشح يعمل آخر.";
+"localize.featuredProducts" = "منتجات مميزة";
+"localize.deliveryTime" = "موعد التسليم";
+"localize.shopClosed" = "عذرا متجر مغلق الآن";
+"localize.closed" = "مغلق";
+"localize.noRating" = "لا يوجد تقييم";
+"localize.mins" = " دقيقة";
+"localize.addFavMsg" = "كما تفعل بنجاح غير محبب";
+"localize.viewCart" = "عرض السلة";
+"localize.customNotes" = "إضافة ملاحظات مخصصة";
+"localize.addItem" = "اضافة عنصر";
+"localize.relatedTo" = "متعلق ب ";
+"localize.perItem" = "عنصر واحد | ";
+"localize.totalItem" = " البند | ";
+"localize.from" = "من عند: ";
+"localize.cartTotalItem" = "مجموع الاشياء";
+"localize.deliveryFee" = "رسوم التوصيل";
+"localize.seriveTax" = "ضريبة الخدمة";
+"localize.discount" = "خصم";
+"localize.pay" = "لدفع";
+"localize.deleteAddress" = "هل تريد بالتأكيد حذف هذا العنوان؟";
+
+"localize.knockText" = "دق دق! من هناك؟";
+"localize.knockDescription" = "ليس لديك عناوين محفوظة ، فإن حفظ العنوان يساعدك في الخروج بشكل أسرع";
+
+"localize.addCard" = "إضافة بطاقة";
+"localize.cash" = "نقدا";
+"localize.ShowRestaurantsWith" = "أعرض المطاعم مع";
+"localize.Cuisines" = "المأكولات";
+
+"localize.changeLanguage" = "غير اللغة";
+"localize.appVersion"= "نسخة التطبيق";
+
+"localize.English"= "الإنجليزية";
+"localize.Arabic"= "عربى";
+"localize.Spanish"= "الأسبانية";
+
+"localize.expireOn"= "تنتهي صلاحيته في :";
+"localize.apply"= "تطبيق";
+
+"localize.orderEmptyHead"= "تبدو فارغة!";
+"localize.orderEmptyContent" = "هناك الكثير من الأشياء اللذيذة هناك. اختيار بعض";
+"localize.pastOrders" = "أوامر الماضي";
+"localize.anotherRestaurant"="تحتوي عربة التسوق على أطباق من مطعم آخر. هل ترغب في تجاهل التحديد وإضافة أطباق من هذا المطعم؟";
+"localize.anotherDishesSameRestaurant"= "تحتوي عربة التسوق على أطباق من نفس المطعم. هل ترغب في تجاهل التحديد وإعادة الترتيب؟";
+"localize.orderCancel"= "تم الغاء الأمر او الطلب";
+"localize.delivered"= "ترتيب تسليمها بنجاح في";
+
+"localize.walletAmount"= "محفظة المبلغ";
+"localize.enterAmount"="أدخل المبلغ";
+"localize.pay"="دفع";
+"localize.profileUpdated"="تحديث الملف الشخصي بنجاح";
+"localize.favEmptyHeading"= "أين الحب؟";
+"localize.favEmptyContent" = "بمجرد تفضيلك لمطعم ، سوف يظهر هنا.";
+"localize.shopUnAvilable" = "عذرًا ، المتجر غير متاح الآن";
+
+"localize.complained" = "اشتكى";
+"localize.canceled" = "ألغيت";
+"localize.refund" = "إعادة مال";
+"localize.cancelOrder" = "هل تريد بالتأكيد إلغاء الطلب؟";
+"localize.enterDesc" = "أدخل وصفك";
+"localize.yes" = "نعم فعلا";
+"localize.no" = "لا";
+
+"localize.noRestaurant" = "لا يوجد مطاعم!";
+"localize.noRestaurantContent" = "معرفة ما إذا كان أي مرشح يعمل آخر.";
+"localize.deliveryCharge" = "رسوم التوصيل";
+"localize.item" = "بند";
+"localize.applied"= "التطبيقية";
+"localize.passwordChanged" = "تم تغيير كلمة المرور والرجاء تسجيل الدخول باستخدام كلمة مرور جديدة";
+"localize.noPromoTitle" = "لا الترويجي";
+"localize.noPromoContent" = "الرمز الترويجي الجديد المثير في طريقك!";
+"localize.addAddressToProceed" = "إضافة عنوان إلى المضي قدما";
+"localize.editAddressConfirmation" = "هل تريد بالتأكيد تحديث عنوانك المحفوظ؟";
+"localize.replaceCart" = "تحتوي عربة التسوق على أطباق من مطعم آخر. هل ترغب في تجاهل التحديد وإضافة أطباق من هذا المطعم؟";
+"localize.Japanese" = "اليابانية";
+
+

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FilterCell" rowHeight="45" id="KGk-i7-Jjw" customClass="FilterCell" customModule="orderAround" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="366" height="44.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaB-BU-XBn">
+                        <rect key="frame" x="0.0" y="0.0" width="366" height="44.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Briyani" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xo-4S-xVq">
+                                <rect key="frame" x="15" y="13" width="295" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="BDl-9o-3hX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="BDl-9o-3hX"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="C0R-8N-SdB">
+                                <rect key="frame" x="336" y="13" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="CsA-1R-fy6"/>
+                                    <constraint firstAttribute="height" constant="20" id="bM9-QK-zru"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yF2-SN-kth">
+                                <rect key="frame" x="320" y="0.0" width="46" height="44.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="oon-uc-gJp"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="FilterUnSelectedIcon"/>
+                                <state key="selected" image="FilterSelectedIcon"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m82-eS-qJz">
+                                <rect key="frame" x="0.0" y="44" width="366" height="0.5"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="pxz-6j-8Ee"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="m82-eS-qJz" secondAttribute="trailing" id="4LQ-Mu-LLR"/>
+                            <constraint firstItem="9xo-4S-xVq" firstAttribute="leading" secondItem="yaB-BU-XBn" secondAttribute="leading" constant="15" id="6VV-uG-4MX"/>
+                            <constraint firstAttribute="trailing" secondItem="C0R-8N-SdB" secondAttribute="trailing" constant="10" id="DVe-ob-GGl"/>
+                            <constraint firstItem="m82-eS-qJz" firstAttribute="top" secondItem="9xo-4S-xVq" secondAttribute="bottom" constant="13" id="EDP-Rp-Nnz"/>
+                            <constraint firstItem="m82-eS-qJz" firstAttribute="leading" secondItem="yaB-BU-XBn" secondAttribute="leading" id="EaH-ab-HIh"/>
+                            <constraint firstItem="yF2-SN-kth" firstAttribute="leading" secondItem="9xo-4S-xVq" secondAttribute="trailing" constant="10" id="Mbm-li-Xt0"/>
+                            <constraint firstItem="9xo-4S-xVq" firstAttribute="top" secondItem="yaB-BU-XBn" secondAttribute="top" constant="13" id="WZO-fY-7Yc"/>
+                            <constraint firstItem="C0R-8N-SdB" firstAttribute="top" secondItem="yaB-BU-XBn" secondAttribute="top" constant="13" id="ZLh-vP-a1B"/>
+                            <constraint firstAttribute="bottom" secondItem="yF2-SN-kth" secondAttribute="bottom" id="bYN-0X-9CK"/>
+                            <constraint firstItem="yF2-SN-kth" firstAttribute="top" secondItem="yaB-BU-XBn" secondAttribute="top" id="grO-FY-lxH"/>
+                            <constraint firstAttribute="bottom" secondItem="m82-eS-qJz" secondAttribute="bottom" id="pwB-9W-rXv"/>
+                            <constraint firstAttribute="trailing" secondItem="yF2-SN-kth" secondAttribute="trailing" id="s3h-uL-x6t"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="yaB-BU-XBn" secondAttribute="trailing" id="TsD-af-5ya"/>
+                    <constraint firstAttribute="bottom" secondItem="yaB-BU-XBn" secondAttribute="bottom" id="eAp-HJ-w64"/>
+                    <constraint firstItem="yaB-BU-XBn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="eRc-sy-8no"/>
+                    <constraint firstItem="yaB-BU-XBn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sPy-Xm-w9g"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="selectButton" destination="yF2-SN-kth" id="FWt-fm-f5X"/>
+                <outlet property="titleLabel" destination="9xo-4S-xVq" id="TNe-kV-uJa"/>
+            </connections>
+            <point key="canvasLocation" x="174.40000000000001" y="139.880059970015"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="FilterSelectedIcon" width="21" height="21"/>
+        <image name="FilterUnSelectedIcon" width="21" height="21"/>
+        <image name="checked" width="32" height="32"/>
+    </resources>
+</document>

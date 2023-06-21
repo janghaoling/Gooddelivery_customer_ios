@@ -1,0 +1,248 @@
+/* 
+  Localizable.strings
+  OrderAroundUser
+
+  Created by Thiru on 13/03/19.
+  Copyright © 2019 css. All rights reserved.
+*/
+
+
+"localize.letsImpress" = "Vamos a impresionarte con nuestros platos.";
+"localize.totalResturant" = "RESTAURANTES";
+"localize.relevent" = "RELEVANTES";
+"localize.currentlyAvailble" = "DISPONIBLE ACTUALMENTE";
+"localize.currentlyUnAvailable" = "NO DISPONIBLE ACTUALMENTE";
+"localize.countryCode" = "EN";
+"localize.countryPickerTitle" = "ELIGE EL PAÍS";
+"localize.Done" = "Hecho";
+"localize.Back" = "Atras";
+"localize.reorder" = "REORDENAR";
+"localize.History" = "HISTORIAL";
+"localize.registration" = "Te has registrado con éxito";
+"localize.noDevice" = "Sin dispositivo";
+"localize.loginSuccess" = "Acceso exitoso";
+"localize.manual" = "manual";
+"localize.OK" = "OK";
+"localize.delete" = "Eliminar";
+"localize.Cancel" = "Cancelar";
+"localize.NA" = "NA";
+"localize.MobileNumber" = "Número de celular";
+"localize.next" = "Siguiente";
+"localize.selectSource" = "Seleccionar fuente";
+"localize.camera" = "Camara";
+"localize.photoLibrary" = "Librería fotográfica";
+"localize.logout" = "Cerrar sesión";
+"localize.cannotMakeCallAtThisMoment" = "No puede hacer una llamada en este momento";
+"localize.couldnotOpenEmailAttheMoment" = "No se pudo abrir el correo electrónico en este momento.";
+"localize.areYouSureWantToLogout" = "¿Quieres cerrar sesión?";
+"localize.OTP" = "OTP";
+"localize.continueText" = "Continuar";
+"localize.enterMobileNumber" = "Ingresa el número de celular";
+"localize.enterOtp" = "Ingresa el código OTP";
+"localize.verficationCode" = "Código de verificación";
+"localize.verficationSentText" = "Ingresa el código de verificación que te enviamos";
+"localize.enterCorrectOTP" = "Ingresa el código otp válido";
+"localize.paymentOption" = "METODO DE PAGO";
+"localize.wallet" = "BILLETERA";
+"localize.payOnDelivery" = "PAGAR CUANDO RECIBA";
+"localize.card" = "TARJETA";
+"localize.skip" = "OMITIR";
+"localize.signIn" = "INICIAR SESION";
+"localize.signUp" = "REGISTRARSE";
+"localize.fresh" = "F R E S C O";
+"localize.discoverNewDish" = "Descubre nuevos platos todos los días";
+"localize.holdFavRest" = "y celebra con tu restaurante favorito";
+"localize.search" = "B U S C A R";
+"localize.viewMenus" = "Observa los menús, fotos y reseñas";
+"localize.restaurantsAroundYou" = "Restaurantes a tu alrededor";
+"localize.bookMark" = "M A R C A D O R";
+"localize.addPlcaeWantToVisit" = "Agregua el lugar que deseas visitar en el";
+"localize.futureBookMark" = "futuro a tu marcador";
+"localize.mobileNumber" = "Número de celular";
+"localize.password" = "Contraseña";
+"localize.dontHaveAccount" = "¿No tienes una cuenta?";
+"localize.forgetPassword" = "¿Olvidaste la Contraseña?";
+"localize.copnnectWithSocial" = "Ingresa con redes sociales";
+"localize.newPassword" = "Nueva contraseña";
+"localize.confirmPassword" = "Confirmar contraseña";
+"localize.change" = "CAMBIAR";
+"localize.alreadyHaveAccount" = "¿Ya tienes una cuenta?";
+"localize.signInHere" = "INICIA SESIÓN aquí";
+"localize.name" = "Nombre";
+"localize.emailAddress" = "Dirección de correo electrónico";
+"localize.register" = "REGISTRARSE";
+"localize.didNotGetOTP" = "¿No recibió el código OTP?";
+"localize.resentOTP" = "Reenviar código OTP";
+"localize.favorites" = "FAVORITOS";
+"localize.locating" = "Localizando";
+"localize.filter" = "Filtrar";
+"localize.searchForResturant" = "Buscar restaurantes, platos";
+"localize.resturant" = "RESTAURANTE";
+"localize.dishes" = "PLATOS";
+"localize.goodFoodIsAlwaysGettingCooked" = "LA BUENA COMIDA SIEMPRE SE ESTA COCINANDO";
+"localize.pleaseOrderDish" = "Por favor ordena los platos";
+"localize.addAddress" = "AGREGAR DIRECCION";
+"localize.changeAddress" = "CAMBIAR";
+"localize.selectAddress" = "SELECCIONAR DIRECCION";
+"localize.continues" = "Continuar";
+"localize.pleaseLoginAndOrder" = "Por favor inicia sesión para ordenar nuestros platos";
+"localize.account:" = "CUENTA";
+"localize.loginPrSignUp" = "Inicia sesión o regístrate para realizar el pedido";
+"localize.login" = "INICIAR SESIÓN";
+"localize.addAmount" = "AGREGAR CANTIDAD";
+"localize.addNewCard" = "AGREGAR NUEVA TARJETA";
+"localize.cardNumber" = "NÚMERO DE TARJETA";
+"localize.vaildThiru" = "FECHA DE VALIDEZ (MM/YY)";
+"localize.cvv" = "CVV";
+"localize.add" = "AGREGAR";
+"localize.editAccount" = "EDITAR CUENTA";
+"localize.userName" = "NOMBRE DE USUARIO";
+"localize.update" = "ACTUALIZAR";
+"localize.changeLanguage" = "CAMBIAR IDIOMA";
+"localize.changePassword" = "CAMBIAR LA CONTRASEÑA";
+"localize.oldPassword" = "Contraseña anterior";
+"localize.confirm" = "CONFIRMAR";
+"localize.promoCode" = "CÓDIGO PROMOCIONAL";
+"localize.payment" = "PAGO";
+"localize.edit" = "EDITAR";
+"localize.delete" = "ELIMINAR";
+"localize.manageAccount" = "Administrar cuenta";
+"localize.myOrder" = "Mi pedido";
+"localize.promoDetails"  = "DETALLES DE LA PROMOCION";
+"localize.myAccount" = "Mi cuenta";
+"localize.menuDetails" = "Dirección, Favoritos, Pagos, Otros ...";
+"localize.writeSomething" = "Escribe algo.";
+"localize.manageAdress" = "EDITAR DIRECCION";
+"localize.savedAddress" = "DIRECCIÓN GUARDADA";
+"localize.addNewAddress" = "AGREGAR NUEVA DIRECCIÓN";
+"localize.currentOrders" = "PEDIDOS ACTUALES";
+"localize.order" = "PEDIDOS";
+"localize.filters" = "FILTROS";
+"localize.reset" = "REINICIAR";
+"localize.applyFilter" = "APLICAR FILTRO";
+"localize.setDeliveryLocation" = "Guardar ubicación de entrega";
+"localize.address" = "DIRECCIONES";
+"localize.saveAs" = "GUARDAR COMO";
+"localize.home" = "CASA";
+"localize.work" = "TRABAJO";
+"localize.others" = "OTROS";
+"localize.saveAndProceed" = "GUARDAR";
+"localize.houseNo" = "CASA / PISO / APTO.";
+"localize.landMark" = "PUNTO DE REFERENCIA";
+"localize.itemDelayForResturant" = "Pedido demorado ​​por parte del restaurante";
+"localize.itemDelayForPacking" = "Pedido demorado por el restaurante";
+"localize.itemUpdationLate" = "Actualización tarde de los productos";
+"localize.other" = "Otros";
+"localize.someTest" = "Alguna prueba";
+"localize.sorryForCancel" = "Lo sentimos por cancelar";
+"localize.productNotAvailable" = "Producto no disponible";
+"localize.dispute" = "DISPUTA";
+"localize.chatUs" = "CHATEA CON NOSOTROS";
+"localize.helpDescription" = "¿Algún incoveniente con el que te podamos ayudar? ¡Comunícate con nosotros y estaremos encantados de ayudarte!";
+"localize.enter" = "Ingresar";
+"localize.details" = "DETALLES";
+"localize.help" = "AYUDA";
+
+"localize.orderPlaced" = "Pedido realizado";
+"localize.orderConfirmed" = "Pedido confirmado";
+"localize.orderProcessed" = "Pedido procesado";
+"localize.orderPickedUp" = "Pedido recogido";
+"localize.orderDelivered" = "Pedido entregado";
+
+"localize.orderPlacedDescription" = "Hemos recibido tu pedido.";
+"localize.orderConfirmedDescription" = "Tu pedido ha sido confirmado.";
+"localize.orderProcessedDescription" = "Tu comida se está cocinando.";
+"localize.orderPickedUpDescription" = "Tu comida está en camino.";
+"localize.orderDeliveryDescription" = "Disfruta tu comida.";
+
+"localize.terrible" = "Terrible";
+"localize.bad" = "Mal";
+"localize.good" = "Buena";
+"localize.okay" = "Muy bien";
+"localize.superb" = "Estupendo";
+"localize.feedback" = "RESEÑA";
+"localize.howWasTheDelivery" = "¿Cómo estuvo la entrega?";
+"localize.giveSomeFeedbackinWords"  = "Dar algún comentario";
+"localize.submit" = "ENVIAR";
+"localize.flat" =  "Plana ";
+"localize.offOrder" = "% de descuento en todos los pedidos";
+"localize.Rating" = " Calificación";
+"localize.noResturant" = "¡SIN RESTAURANTES!";
+"localize.seeIfFilter" = "Ver si algún otro filtro funciona.";
+"localize.featuredProducts" = "Productos Destacados";
+"localize.deliveryTime" = "Tiempo de entrega";
+"localize.shopClosed" = "Lo sentimos, la tienda está cerrada ahora";
+"localize.closed" = "CERRADO";
+"localize.noRating" = "Sin calificación";
+"localize.mins" = " Mins";
+"localize.addFavMsg" = "Quitar de favoritos";
+"localize.viewCart" = "VER CARRITO";
+"localize.customNotes" = "Agregar notas personalizadas";
+"localize.addItem" = "AGREGAR PRODUCTO";
+"localize.relatedTo" = "Relacionado con ";
+"localize.perItem" = "1 producto | ";
+"localize.totalItem" = " producto | ";
+"localize.from" = "Desde: ";
+"localize.cartTotalItem" = "Total de productos";
+"localize.deliveryFee" = "Costo de envío";
+"localize.seriveTax" = "Impuesto";
+"localize.discount" = "Descuento";
+"localize.pay" = "Pagar";
+"localize.deleteAddress" = "¿Seguro que quieres eliminar esta dirección?";
+
+"localize.knockText" = "¡TOC TOC! ¿QUIÉN ESTÁ AHÍ?";
+"localize.knockDescription" = "No tienes direcciones guardadas, Guarda la dirección. te ayudará a pagar más rápido.";
+
+"localize.addCard" = "AGREGAR TARJETA";
+"localize.cash" = "En efectivo";
+"localize.ShowRestaurantsWith" = "MOSTRAR RESTAURANTES CON";
+"localize.Cuisines" = "COCINAS";
+
+"localize.appVersion"= "Version de la app";
+"localize.English"= "Inglés";
+"localize.Arabic"= "Árabe";
+"localize.Spanish"= "Español";
+"localize.expireOn"= "Expira el : ";
+"localize.apply"= "APLICAR";
+"localize.orderEmptyHead"= "Esta vacío!";
+"localize.orderEmptyContent" = "Hay muchas cosas deliciosas por ahí. Elige algunas";
+"localize.pastOrders" = "Pedidos anteriores";
+"localize.anotherRestaurant"="Tu carrito contiene platos de otro restaurante. ¿Desea descartar la selección y agregar platos de este restaurante?";
+"localize.anotherDishesSameRestaurant"= "Tu carrito contiene platos del mismo restaurante. ¿Desea descartar la selección y reordenar?";
+"localize.orderCancel"= "Pedido cancelado";
+"localize.delivered"= "Pedido entregado con éxito  ";
+"localize.walletAmount"= "Cantidad de la billetera";
+"localize.enterAmount"="INGRESA LA CANTIDAD";
+"localize.pay"="PAGAR";
+"localize.profileUpdated"="Perfil actualizado con éxito";
+"localize.favEmptyHeading"= "¡Mis favoritos!";
+"localize.favEmptyContent" = "Una vez que haya un restaurante favorito, aparecerá aquí.";
+"localize.shopUnAvilable" = "Lo sentimos, la tienda no está disponible ahora";
+
+"localize.complained" = "Reclamo";
+"localize.canceled" = "Cancelado";
+"localize.refund" = "Reembolso";
+"localize.cancelOrder" = "¿Estás seguro que deseas cancelar el pedido?";
+"localize.enterDesc" = "Ingresa una descripción";
+"localize.yes" = "SI";
+"localize.no" = "NO";
+
+"localize.noRestaurant" = "¡Sin Restaurantes!";
+"localize.noRestaurantContent" = "Ver si algún otro filtro funciona.";
+"localize.deliveryCharge" ="Costo de envío";
+"localize.item" = "Producto";
+"localize.applied"= "APLICADO";
+
+"localize.passwordChanged" = "Contraseña modificada, inicie sesión con una nueva contraseña";
+"localize.noPromoTitle" = "No Promo";
+"localize.noPromoContent" = "¡Te esperan nuevos y emocionantes códigos promocionales!";
+"localize.addAddressToProceed" = "AGREGAR DIRECCIÓN PARA PROCEDER";
+"localize.editAddressConfirmation" = "¿Seguro que quieres actualizar tu dirección guardada?";
+"localize.replaceCart" = "Tu carrito contiene platos de otro restaurante. ¿Desea descartar la selección y agregar platos de este restaurante?";
+"localize.Japanese" = "Japonés";
+
+
+
+
+
+
